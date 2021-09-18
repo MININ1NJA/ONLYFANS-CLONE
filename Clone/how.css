@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    color: aliceblue;
+    background-color: #00AFF0;
+    padding-top: 1%; padding-bottom: 1%;
+    width: 100%; text-align: center;
+    cursor: pointer; 
+}
+
+.mid{
+    font-size: 12px; 
+    padding-top: 1%; padding-left: 20%;
+    text-transform: uppercase;
+}
+.paragraph{
+    font-weight: bold; font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.header5{
+    font-size: 15px; font-weight: bold;
+    text-transform: none;
+}
+.header2{
+    color: black; text-transform: none;
+    font-family: Arial, Helvetica, sans-serif; font-weight: 600;
+
+}
+.header3{
+    color: gray; text-transform: none;
+    font-family: Arial, Helvetica, sans-serif; font-weight: 500;
+}
+.container{
+	max-width: 100%;
+	margin:auto;
+	justify-content: center;
+	padding-left: 20%;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #FAF9F6;
+    padding: 58px 0; height: 10%;
+}
+.footer-col{
+   width: 20%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #222222;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #222222;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+}
+.footer-col ul li a:hover{
+	color: #00AFF0;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color:whitesmoke;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #222222;
+}
+.footer-col .social-links a:hover{
+	color: #ffffff;
+	background-color: #00AFF0;
+}
+
+
+
+

@@ -1,0 +1,38 @@
+
+.navbar {
+    color: aliceblue;
+    background-color: #0c5486;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    padding: 2%;
+    
+}
+.navbar:hover{
+    color: orange;
+
+}
+.form { 
+    background-color: pink;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    font-size: xx-large;
+    text-align: left;
+}
+#reset{
+    padding: 8px;
+    background-color: #0c5486;
+    color: aliceblue;
+}
+#submit {
+    padding: 8px;
+    background-color: #0c5486;
+    color: aliceblue;
+}
+#option {
+    padding: 10%;
+}
+.content{
+    font-style: italic;
+}
